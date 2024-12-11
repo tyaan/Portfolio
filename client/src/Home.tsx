@@ -28,10 +28,10 @@ export default function Home() {
         </p>
 
         <div className="flex flex-row">
-          <a className="flex-1 justify-center p-10" href="https://github.com/tyaan">
+          <a className="flex-1 justify-center p-10" target="_blank" rel="noopener noreferrer" href="https://github.com/tyaan">
             <SiGithub size={"100%"}/>
           </a>
-          <a className="flex-1 justify-center p-10" href="https://www.linkedin.com/in/tyaansingh/">
+          <a className="flex-1 justify-center p-10" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/tyaansingh/">
             <FaLinkedin size={"100%"}/>
           </a>
         </div>

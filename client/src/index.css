@@ -27,7 +27,7 @@
 }
 
 .button:hover {
-  @apply border-[rgb(115,188,210)] shadow-sm;
+  @apply border-[rgb(115,188,210)];
 }
 
 .button:focus,
