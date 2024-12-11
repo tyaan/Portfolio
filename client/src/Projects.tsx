@@ -55,6 +55,18 @@ const projects: Project[] = [
     githubURL: "https://github.com/tyaan/DA-project-fullstack-trees"
   },
   {
+    title: "Guess the Flag Game", 
+    overview: "Try beat your high score!", 
+    details: <>
+      This app was created in a group of 4 developers as a part of my study at Dev Academy Aotearoa. 
+      <br />
+      It is a flag guessing game containing all of the worlds flags (plus some extra obscure ones). 
+    </>,
+    siteURL: "http://tyaan-roa24-flag-game.devacademy.nz/", 
+    imgURL: "https://www.publicdomainpictures.net/pictures/240000/velka/world-flags.jpg",
+    githubURL: "https://github.com/tyaan/DA-group-project-flag-game"
+  },
+  {
     title: "PokeAPI App", 
     overview: "Simple site that pulls pokemon info from the public Poke API", 
     details: <>

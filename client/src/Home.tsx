@@ -28,10 +28,10 @@ export default function Home() {
         </p>
 
         <div className="flex flex-row">
-          <a className="flex-1 justify-center p-10" target="_blank" rel="noopener noreferrer" href="https://github.com/tyaan">
+          <a className="flex-1 justify-center p-10 text-gray-700 hover:text-black" target="_blank" rel="noopener noreferrer" href="https://github.com/tyaan">
             <SiGithub size={"100%"}/>
           </a>
-          <a className="flex-1 justify-center p-10" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/tyaansingh/">
+          <a className="flex-1 justify-center p-10 text-gray-700 hover:text-black" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/tyaansingh/">
             <FaLinkedin size={"100%"}/>
           </a>
         </div>
@@ -62,9 +62,9 @@ export default function Home() {
 
         <div className="education">
           <h1 className="text-3xl">Education</h1>
-          <ul className='p-1'>
+          <ul>
           {education.map((item, idx) => (
-            <li key={item.school + idx} className='rounded-lg border border-white m-2 p-1'>
+            <li key={item.school + idx} className='p-4 m-2 rounded-lg border border-white'>
               <span className="font-bold">{item.school}</span>
               <br />
               <span>{item.dates}</span>
