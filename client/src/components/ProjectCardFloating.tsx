@@ -1,5 +1,7 @@
 import { Project } from "../../models/Project"
 import { XMarkIcon } from '@heroicons/react/24/solid'
+import { SiGithub } from "react-icons/si"
+
 
 
 export default function ProjectCardFloating({ project, onClose }: { project: Project, onClose: () => void}) {
@@ -32,7 +34,13 @@ export default function ProjectCardFloating({ project, onClose }: { project: Pro
 
           <a href={project.siteURL} target="_blank" rel="noopener noreferrer" className="text-3xl">
             <div className="p-4 m-4 button border border-white text-center bg-green-100 rounded-lg">
-              Visit Deployed Site!
+              Visit Deployed Site
+            </div>
+          </a>
+
+          <a href={project.githubURL} target="_blank" rel="noopener noreferrer" className="text-3xl">
+            <div className="p-4 m-4 button border border-white text-center bg-gray-200 rounded-lg">
+              Chekout the Project Github
             </div>
           </a>
 

@@ -6,4 +6,5 @@ export interface Project {
   overview: string
   details: ReactElement
   siteURL: string
+  githubURL: string
 }
