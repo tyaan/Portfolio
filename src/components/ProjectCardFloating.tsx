@@ -1,8 +1,5 @@
 import { Project } from "../../models/Project"
 import { XMarkIcon } from '@heroicons/react/24/solid'
-import { SiGithub } from "react-icons/si"
-
-
 
 export default function ProjectCardFloating({ project, onClose }: { project: Project, onClose: () => void}) {
   return (
