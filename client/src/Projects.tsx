@@ -42,18 +42,18 @@ const projects: Project[] = [
     imgURL: "https://stellar-share-mania-roa-24.pushed.nz/images/Homepage/TrolleGuy.png",
     githubURL: "https://github.com/tyaan/DA-group-project-stellar-share"
   },
-  {
-    title: "Fullstack Trees App", 
-    overview: "Simple fullstack app with a database of trees", 
-    details: <>
-      This app was created as a part of my study at Dev Academy Aotearoa. 
-      <br />
-      It is a simple fullstack app that allows the user to add and delete trees from a database. 
-    </>,
-    siteURL: "", 
-    imgURL: "https://www.publicdomainpictures.net/pictures/40000/velka/beautiful-trees.jpg",
-    githubURL: "https://github.com/tyaan/DA-project-fullstack-trees"
-  },
+  // {
+  //   title: "Fullstack Trees App", 
+  //   overview: "Simple fullstack app with a database of trees", 
+  //   details: <>
+  //     This app was created as a part of my study at Dev Academy Aotearoa. 
+  //     <br />
+  //     It is a simple fullstack app that allows the user to add and delete trees from a database. 
+  //   </>,
+  //   siteURL: "", 
+  //   imgURL: "https://www.publicdomainpictures.net/pictures/40000/velka/beautiful-trees.jpg",
+  //   githubURL: "https://github.com/tyaan/DA-project-fullstack-trees"
+  // },
   {
     title: "Guess the Flag Game", 
     overview: "Try beat your high score!", 

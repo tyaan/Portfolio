@@ -45,14 +45,16 @@ export default function Home() {
           <h1 className="text-3xl">About</h1>
           <div className="p-5">
             <p className="p-1">
-              I am a very analytical person with a brain wired for complex problem solving. 
-              I love all things music, and have been a musician from a young age. 
+            I am a very analytical person with an affinity for math and problem solving. 
+            I love all things music, and have been a musician from a young age. 
             </p>
             <p className="p-1">
               I completed a BSc in Electronics Engineering in 2017, briefly worked as an electronics engineering assistant and then returned to my passion for music, working as a performing and recording instrumentalist, soundtrack writer, producer, and audio engineer. 
             </p>
             <p className="p-1">
-              In 2023, I picked up some freelance data analyst work (mostly creating royalties reports for musicians). I developed some basic Python skills through this work and moved on to working as a data annotator for a US based company Data Annotation. This work involves rating and correcting AI chatbots on a range of data science and math topics including Python programming, which has really helped develop my coding skills. 
+              In 2023, I picked up some freelance data analyst work (mostly creating royalties reports for musicians). 
+              I developed some basic Python skills through this work and moved on to working as a data annotator for a US based company, Data Annotation. 
+              This work involves rating and correcting AI chatbots on a range of data science and math topics including Python programming, which has really helped develop my coding skills. 
             </p>
             <p className="p-1">
               In August 2024, I studied full stack web development at Dev Academy Aotearoa. This course provided invaluable opportunities for group and pair coding work, with a focus on Javascript/Typescript and the React framework.
