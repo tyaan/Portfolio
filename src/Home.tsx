@@ -1,6 +1,6 @@
 import { ChevronRightIcon } from '@heroicons/react/24/solid'
 import { SiGithub } from "react-icons/si"
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa"
 import { ReactElement, useState } from 'react'
 
 export default function Home() {

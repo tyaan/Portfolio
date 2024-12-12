@@ -13,7 +13,7 @@ export default function ProjectCard({ project }: { project: Project}) {
             {project.overview}
           </p>
           <br />
-          <p className="text-md">
+          <p className="text-md text-red-400 font-bold">
             {`${project.tech.join(", ")}`}
           </p>
         </div>

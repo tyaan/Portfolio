@@ -23,6 +23,10 @@ export default function ProjectCardFloating({ project, onClose }: { project: Pro
               <p className="text-lg font-bold">
                 {project.overview}
               </p>
+              <br />
+              <p className="text-md text-red-400 font-bold">
+                {`${project.tech.join(", ")}`}
+              </p>
             </div>
           </div>
 
