@@ -40,7 +40,36 @@ const projects: Project[] = [
     </>,
     siteURL: "https://stellar-share-mania-roa-24.pushed.nz/", 
     imgURL: "https://stellar-share-mania-roa-24.pushed.nz/images/Homepage/TrolleGuy.png",
-    githubURL: "https://github.com/tyaan/DA-group-project-stellar-share"
+    githubURL: "https://github.com/tyaan/DA-group-project-stellar-share", 
+    tech: [
+      "Typescript", 
+      "React", 
+      "Node.js",
+      "Express.js", 
+      "Knex.js", 
+      "SQLite 3"
+    ]
+  },
+  {
+    title: "Analysis of Director Genders in Popular Films", 
+    overview: "An R Shiny App visualising data on popular film directors", 
+    details: <>
+      I created this app to help me learn to develop data visualisation apps with the R Shiny library, and to learn about web scraping data.  
+      <br />
+      I started by scraping information on films from the Letterboxd website using the Selenium library with Python. 
+      <br />
+      I then cleaned the data using Python, transferred the data to R and created a range of data visualisations using the Shiny library. 
+    </>,
+    siteURL: "https://y9xjge-tyaan-singh.shinyapps.io/analysis-of-director-genders-in-popular-films/", 
+    imgURL: "images/letterboxd-graph.png",
+    githubURL: "https://github.com/tyaan/analysis-of-director-genders-in-popular-films", 
+    tech: [
+      "Python", 
+      "Pandas", 
+      "Selenium", 
+      "R", 
+      "Shiny"
+    ]
   },
   // {
   //   title: "Fullstack Trees App", 
@@ -64,7 +93,11 @@ const projects: Project[] = [
     </>,
     siteURL: "http://tyaan-roa24-flag-game.devacademy.nz/", 
     imgURL: "https://www.publicdomainpictures.net/pictures/240000/velka/world-flags.jpg",
-    githubURL: "https://github.com/tyaan/DA-group-project-flag-game"
+    githubURL: "https://github.com/tyaan/DA-group-project-flag-game", 
+    tech: [
+      "Typescript", 
+      "React"
+    ]
   },
   {
     title: "PokeAPI App", 
@@ -76,7 +109,11 @@ const projects: Project[] = [
     </>,
     siteURL: "http://tyaan-roa24-pokemonlist.devacademy.nz/pokemon/beedrill",
     imgURL: "https://pluspng.com/img-png/pokemon-logo-png-pokemon-logo-on-gradient-1600.png",
-    githubURL: "https://github.com/tyaan/DA-project-pokeAPI"
+    githubURL: "https://github.com/tyaan/DA-project-pokeAPI", 
+    tech: [
+      "Typescript", 
+      "React"
+    ]
   },
   
 ]

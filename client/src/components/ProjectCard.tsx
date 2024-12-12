@@ -12,6 +12,10 @@ export default function ProjectCard({ project }: { project: Project}) {
           <p className="text-lg font-bold">
             {project.overview}
           </p>
+          <br />
+          <p className="text-md">
+            {`${project.tech.join(", ")}`}
+          </p>
         </div>
       </div>
     </div>

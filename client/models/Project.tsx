@@ -7,4 +7,5 @@ export interface Project {
   details: ReactElement
   siteURL: string
   githubURL: string
+  tech: string[]
 }
