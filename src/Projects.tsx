@@ -14,7 +14,7 @@ export default function Projects() {
 
   return (
     <div className="projects">
-      <div className="flex flex-col m-6">
+      <div className="flex flex-col sm:m-6 mt-6">
         {projects.map((project, idx) => (
           <div key={project.title + idx} onClick={() => setSelectedProject((idx))}>
             <ProjectCard project={project} />

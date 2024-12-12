@@ -13,7 +13,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col md:flex-row">
 
       {/* IMAGE AND OVERVIEW */}
-      <div className="md:w-1/3 m-10 p-5 bg-green-100 rounded-lg shadow-lg">
+      <div className="md:w-1/3 sm:m-10 mt-10 p-5 bg-green-100 rounded-lg shadow-lg">
         <img className="rounded-full p-5" src="images/Tyaan Promo Photo.JPG" />
         <h1 className="text-center text-3xl p-5">
           Hi! I'm Tyaan.
@@ -39,7 +39,7 @@ export default function Home() {
       </div>
 
       {/* ABOUT, EDUCATION, WORK, SKILLS */}
-      <div className="md:w-2/3 m-10 p-10 bg-green-100 rounded-lg shadow-lg">
+      <div className="md:w-2/3 sm:m-10 mt-10 p-10 bg-green-100 rounded-lg shadow-lg">
 
         <div className="about">
           <h1 className="text-3xl">About</h1>
